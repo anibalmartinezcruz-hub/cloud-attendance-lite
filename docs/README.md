@@ -34,10 +34,10 @@ La solución es una plataforma web/cloud ligera de tipo SaaS académico, orienta
 
 ### Propósito
 Resolver la necesidad de la Dirección de Gestión Académica Digital (DGAD) de contar con una plataforma ligera, centralizada y basada en la nube para:
-- Registrar eventos y sesiones académicas.
-- Registrar y mantener un historial de participantes.
-- Registrar asistencia por sesión.
-- Generar reportes básicos de participación y asistencia sin depender de hojas de cálculo manuales enviadas por correo.
+1. Registrar eventos y sesiones académicas.
+2. Registrar y mantener un historial de participantes.
+3. Registrar asistencia por sesión.
+4. Generar reportes básicos de participación y asistencia sin depender de hojas de cálculo manuales enviadas por correo.
 
 ### Objetivo
 Gestionar:
@@ -48,13 +48,11 @@ Gestionar:
 
 ### Infraestructura propuesta (según sección 9.2.3)
 - **Base de datos:** Google Sheets
-- **Automatización/API:** Google Apps Script (Web App + onFormSubmit)
+- **Automatización:** Google Apps Script (Web App + onFormSubmit)
 
 ### Estructura
-- `/backend` -> Base de datos en XLSX
+- `/backend` -> 
 - `/docs` -> Documentación del proyecto
 - `/frontend` -> UI web (prototipo)
 - `/scripts` -> Scripts
-- `/tests` -> Pruebas
-- `/enlaceRecursos` -> https://drive.google.com/drive/folders/1Th_eAFZygPB6hl5mphQjVsipQo2nlA4-?usp=sharing
-- `/enlaceAplicacion` -> [https://script.google.com/macros/s/AKfycby8_hj_NMQhHodihDiXJ0NMpmKq_yCm1HiTHeZ0vSILUSHjqi5oZU5UfPPkgxsV-4NC/exec](https://script.google.com/macros/s/AKfycbx4mkPHZW_EQdWeK6tnvDLxNlpY_-75lCKjwk442lA1bdZUZjFExKkOsZmdEl4Qh0TO/exec)
+- `/tests` -> Base de datos en XLSX
