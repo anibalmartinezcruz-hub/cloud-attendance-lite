@@ -53,7 +53,7 @@ Gestionar:
 ### Estructura
 - `/backend` -> Reglas de negocio de la aplicación
 - `/certificados` -> Plantilla de certificados
-- `/db` -> Base de datos
+- `/db` -> ERD de la base de datos
 - `/docs` -> Documentación del proyecto
 - `/frontend` -> UI web (prototipo)
 - `/tests` -> Diferentes archivos de pruebas usados durante el desarrollo
